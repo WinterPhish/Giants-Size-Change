@@ -1,0 +1,29 @@
+{
+	"type": "origins:action_on_callback",
+	"entity_action_added": {
+		"type": "origins:execute_command",
+		"command": "scale set pehkui:base 3 @s",
+		"permission_level": 4
+	},
+	"entity_action_removed": {
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:execute_command",
+			"command": "scale set pehkui:base 1 @s",
+			"permission_level": 4
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "tag @s remove giant",
+			"permission_level": 4
+		}]
+	},
+	"entity_action_chosen": {
+		"type": "origins:execute_command",
+		"command": "tag @s add giant",
+		"permission_level": 4
+	},
+	"name": "Giganto",
+	"description": "You are 6 blocks tall and 3 blocks wide, you can reach 10 blocks in front of you and jump 3 blocks high."
+}

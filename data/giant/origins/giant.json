@@ -1,0 +1,22 @@
+{
+	"powers": [
+		"giant:passive_abilities",
+		"giant:scale_change",
+		"giant:ground_slam",
+		"giant:tyrant",
+		"giant:too_big",
+		"giant:no_farmer",
+		"giant:hard_fall",
+		"giant:giant_boost",
+		"giant:break_speed",
+		"giant:size+1",
+		"giant:size-1",
+		"origins:carnivore",
+		"origins:more_exhaustion"
+	],
+	"icon": "minecraft:coarse_dirt",
+	"order": 5,
+	"impact": 3,
+	"name": "Giant",
+	"description": "You fell from the clouds into an unkown and tiny world where you have incredible strength and speed."
+}

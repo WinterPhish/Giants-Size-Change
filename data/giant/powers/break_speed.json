@@ -1,0 +1,9 @@
+{
+	"type": "origins:modify_break_speed",
+	"modifier": {
+		"operation": "multiply_base",
+		"value": 1.5
+	},
+	"name": "Stronger",
+	"description": "You break blocks 1.5x as fast as the average player."
+}

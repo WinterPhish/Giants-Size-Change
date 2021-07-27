@@ -1,0 +1,19 @@
+{
+	"type": "origins:conditioned_attribute",
+	"condition": {
+		"type": "origins:equipped_item",
+		"equipment_slot": "mainhand",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"tag": "giant:plantable"
+			}
+		}
+	},
+	"modifier": {
+		"attribute": "reach-entity-attributes:reach",
+		"operation": "multiply_base",
+		"value": -0.9
+	},
+	"hidden": true
+}

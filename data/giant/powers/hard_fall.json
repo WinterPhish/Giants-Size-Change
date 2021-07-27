@@ -1,0 +1,11 @@
+{
+	"type": "origins:modify_damage_taken",
+	"damage_condition": {
+		"type": "origins:name",
+		"name": "minecraft:fall"
+	},
+	"operation": "multiply_base",
+	"value": 0.2,
+	"name": "The Bigger They Are...",
+	"description": "The harder they fall. You take more fall damage."
+}

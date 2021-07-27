@@ -1,0 +1,29 @@
+{
+	"type": "origins:multiple",
+	"animal_fear": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "data modify entity @e[distance=..10,limit=1] Fire set value 2s",
+			"permission_level": 4
+		},
+		"interval": 10,
+		"hud_render": {
+			"should_render": false
+		}
+	},
+	"golem_fear": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "data modify entity @e[type=iron_golem,distance=..15,limit=1] AngryAt set from entity @s UUID",
+			"permission_level": 4
+		},
+		"interval": 10,
+		"hud_render": {
+			"should_render": false
+		}
+	},
+	"name": "Tyrant",
+	"description": "Because of your large size, animals are terrified of you at all times (WIP) and iron golems will always attack you."
+}

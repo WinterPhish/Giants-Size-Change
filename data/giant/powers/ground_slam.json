@@ -1,0 +1,37 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:delay",
+			"ticks": 20,
+			"action": {
+				"type": "origins:execute_command",
+				"command": "execute at @e[distance=..10,tag=!giant] run summon arrow ~ ~3 ~ {Motion:[0.0,-5.0,0.0]}",
+				"permission_level": 4
+			}
+		},
+		{
+			"type": "origins:add_velocity",
+			"y": 3
+		},
+		{
+			"type": "origins:delay",
+			"ticks": 15,
+			"action": {
+				"type": "origins:execute_command",
+				"command": "effect give @e[distance=..10,tag=!giant] minecraft:levitation 1 3 true",
+				"permission_level": 4
+			}
+		}]
+	},
+	"key": "secondary",
+	"cooldown": 1200,
+	"hud_render": {
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+		"bar_index": 17
+	},
+	"name": "Ground Slam",
+	"description": "Using your 'secondary' power key you launch yourself in the air dealing tons of damage to the entities around you when you come down"
+}
