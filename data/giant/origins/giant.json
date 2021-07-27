@@ -9,8 +9,8 @@
 		"giant:hard_fall",
 		"giant:giant_boost",
 		"giant:break_speed",
-		"giant:size+1",
-		"giant:size-1",
+		"giant:size_plus_1",
+		"giant:size_minus_1",
 		"origins:carnivore",
 		"origins:more_exhaustion"
 	],
