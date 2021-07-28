@@ -1,21 +1,10 @@
 {
     "type": "origins:active_self",
     "entity_action": {
-        "type": "origins:and",
-        "actions": [
-            {
-                "type": "origins:command",
-                "command": "scale get pehkui:base @s",
-                "compare_to": "0.5",
-                "permission_level": "4",
-                "inverted": false
-            },
-            {
-                "type": "origins:execute_command",
-                "command": "scale subtract pehkui:base 0.5 @s"
-            }
-
-        ]
+        "type": "origins:execute_command",
+        "command": "scale set pehkui:base 1 @s",
+        "permission_level": "4",
+        "inverted": false
     },
     "cooldown": 5,
     "hud_render": {
@@ -24,10 +13,10 @@
         "bar_index": 17
     },
     "key": {
-        "key": "key.origins.primary_active",
+        "key": "key.origins.secondary_active",
         "continuous": false
     },
     "name": "Variable size",
-    "description": "You can change you height with you primary and secondary abilitykey!",
+    "description": "You can change you height with you primary and secondary ability key!",
     "hidden": true
 }

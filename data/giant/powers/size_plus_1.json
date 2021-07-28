@@ -1,21 +1,10 @@
 {
     "type": "origins:active_self",
     "entity_action": {
-        "type": "origins:and",
-        "actions": [
-            {
-                "type": "origins:command",
-                "command": "scale get pehkui:base @s",
-                "compare_to": "0.5",
-                "permission_level": "4",
-                "inverted": true
-            },
-            {
-                "type": "origins:execute_command",
-                "command": "scale add pehkui:base 0.5 @s"
-            }
-
-        ]
+        "type": "origins:execute_command",
+        "command": "scale set pehkui:base 3 @s",
+        "permission_level": "4",
+        "inverted": false
     },
     "cooldown": 5,
     "hud_render": {
